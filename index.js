@@ -23,7 +23,7 @@ function capFirstLet(titles) {
   return words.map(word => (word[0].toUpperCase()+word.slice(1, word.length))).join(" ")}
 
 function titleCased() {
-  return tutorials.map(capFirstLet)
+  return tutorials.map(titles => capFirstLet(titles))
 }
 
 // function capFirstLet(titles) { 
